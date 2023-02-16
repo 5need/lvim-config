@@ -1,0 +1,23 @@
+{
+  "div": {
+    "prefix": "d",
+    "body": ["<div>${0}</div>"],
+    "description": "a div"
+  },
+  "div with classname": {
+    "prefix": "dc",
+    "body": ["<div className=\"${1}\">${0}</div>"],
+    "description": "a div with classname"
+  },
+  "page": {
+    "prefix": "page",
+    "body": [
+      "export default function ${1}() {",
+      " return(",
+      "   ${0}",
+      " )",
+      "}"
+    ],
+    "description": "a default export of a page"
+  }
+}
